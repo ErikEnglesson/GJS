@@ -1,0 +1,26 @@
+seed: 1
+run_dir: runs/c10/test/
+arch: preactresnet
+percent: 0.2
+momentum: 0.9
+weightdecay: 0.00005
+nesterov: True
+data_dir: /local_storage/datasets/cifar/
+num_workers: 4
+dataset: cifar100
+cutout: 16
+augmentation: rand
+N: 1
+M: 3
+lr_pg: 0.2
+lr_schedule: drop
+lr_drop1: 200
+lr_drop2: 300
+epochs: 400
+loss: JSWCS
+augs: ss
+js_weights: 0.3 0.35 0.35
+loss_alpha: 0.3
+loss_beta: 0.35
+asym: False
+test: True

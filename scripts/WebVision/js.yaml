@@ -1,0 +1,20 @@
+seed: 1
+run_dir: runs/webvision/
+arch: resnet50
+momentum: 0.9
+weightdecay: 0.0001
+nesterov: True
+data_dir: /local_storage/datasets/WebVision/
+num_workers: 3
+dataset: webvision
+lr_pg: 0.2
+lr_schedule: stepLR
+loss_alpha: 0.1
+loss_beta: 0.45
+loss: JSWC
+js_weights: 0.1 0.9
+augs: w
+bs_pg: 64
+epochs: 300
+scratch: True
+test: False
