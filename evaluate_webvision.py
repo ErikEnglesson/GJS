@@ -32,7 +32,7 @@ from datetime import datetime
 
 import tqdm
 
-from figure_utils import create_figures
+# from figure_utils import create_figures
 import datasets.cifar as cifar
 import datasets.clothing1m as clothing1m
 import datasets.webvision as webvision
