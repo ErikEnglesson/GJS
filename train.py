@@ -29,7 +29,7 @@ from datetime import datetime
 
 import tqdm
 
-from figure_utils import create_figures
+# from figure_utils import create_figures
 import datasets.cifar as cifar
 import datasets.webvision as webvision
 from datasets.transforms import get_webvision_transforms
